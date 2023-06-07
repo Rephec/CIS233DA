@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="inactive"><a href="class.html">Class Maintenance</a></li>
+        <li class="inactive"><a href="student.html">Student Maintenance</a></li>
+        <li class="active"><a href="attendance.html">Attendance Taker</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Attendance Tracker</h1>
+      <div id="itemWrapper">
+        <table>
+          <tr>
+            <td>
+              <select>
+                <option selected>English 101</option>
+                <option>Remedial Reading</option>
+                <option>English Literature</option>
+              </select>
+            </td>
+            <td>
+              <input type="date" />
+            </td>
+          </tr>
+        </table>
+        <div id="itemList">
+          <table id="studentList">
+            <tr>
+              <td>doe, John</td>
+              <td><input type="checkbox" /></td>
+            </tr>
+          </table>
+          <table id="studentList">
+            <tr>
+              <td>Garcia, Irvin</td>
+              <td><input type="checkbox" /></td>
+            </tr>
+          </table>
+          <table id="studentList">
+            <tr>
+              <td>Aardvark, Arvin</td>
+              <td><input type="checkbox" /></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
