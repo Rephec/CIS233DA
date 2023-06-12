@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    background-color: #0033A1;
+    color: white;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: #F8F8F8;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.text-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #0033A1;
+    text-decoration: none;
+}
+
+.graphic-links {
+    text-align: right;
+}
+
+.social-media-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-icons li {
+    margin-right: 10px;
+}
+
