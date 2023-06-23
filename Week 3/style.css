@@ -23,6 +23,7 @@ Color 4
     margin: 0;
     padding: 0;
     font-family: 'Roboto Regular', sans-serif;
+    background: linear-gradient(#3b3b3b, #8a8a8a);
   }
   
   .navbar {
@@ -33,7 +34,8 @@ Color 4
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    text-decoration: underline;
+    background: linear-gradient(#3b3b3b, #8a8a8a);
+
   }
   
   .navbar a {
@@ -41,7 +43,7 @@ Color 4
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #000;
+    color: #222222;
   }
   
   .navbar img {
@@ -49,6 +51,7 @@ Color 4
     height: 100px;
     object-fit: cover;
     margin-bottom: 08px;
+    border-color: #000;
   }
   
   .city-content {
@@ -183,34 +186,7 @@ Color 4
     padding: 20px;
   }
 
-  /* End of third section */
-
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f0f0f0;
-    padding: 10px;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: #333;
-    margin-right: 10px;
-  }
-  
-  .dropdown-toggle {
-    display: none;
-  }
-  
-  .dropdown-menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    background-color: #f0f0f0;
-    padding: 10px;
-  }
+/* End of first css */
 
 @media screen and (max-width: 600px){
 
@@ -304,10 +280,6 @@ body {
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px){
-    
-body{
-    color: aquamarine;
-}
 
 select{
     display: none;
